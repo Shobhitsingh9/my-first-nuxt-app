@@ -1,11 +1,14 @@
 
 <template>
-<p>Please enter id</p>
+<Header />
+
 </template>
 
 <script>
+import Header from '~/components/Header.vue'
 export default {
-  
-  layout: 'users',
+  components:{
+    Header
+  }
 }
 </script>
