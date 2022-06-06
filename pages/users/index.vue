@@ -1,3 +1,10 @@
 <template>
-<h1>what is going on</h1>
+<p>Please enter id</p>
 </template> 
+
+<script>
+export default {
+  
+  layout: 'users',
+}
+</script>
