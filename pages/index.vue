@@ -1,11 +1,24 @@
 
 <template>
- <nuxt-link to="/users">Users</nuxt-link>
+<div>
+   <input type="text" v-model="userId">
+   <button @click="onLoaduser">Load user</button>
+   </div>
+
 
 </template>
 
 <script>
 export default {
-  name: 'IndexPage'
+  data() {
+    return {
+      UserId: ''
+    }
+  },
+  methods:{
+     onLoaduser(){
+    this.$router.push('/users/' + this.userId)
+     }
+  }
 }
 </script>
