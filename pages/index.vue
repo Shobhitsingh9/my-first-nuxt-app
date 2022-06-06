@@ -1,6 +1,6 @@
 
 <template>
-  <h1>whatt</h1>
+ <nuxt-link to="/users">Users</nuxt-link>
 
 </template>
 
